@@ -747,7 +747,6 @@
             justify-content: center;
             gap: 15px;
             margin: 30px;
-            width: 70%;
         }
         .social-links a{
             color: white;
@@ -769,6 +768,7 @@
             scrollbar-width: none;
             justify-content: center;
         }
+        
         /* .nav-box{
             width: 100%;
         }
@@ -859,8 +859,17 @@
         }
         footer .container .footer-links {
             margin: 10px;
+            justify-content: center;
+        }
+        footer .container h2{
+            font-size: 30px;
+            margin-top: 20px;
         }
         .footer-links{
             margin-bottom: 20px;
+        }
+        .social-links{
+            justify-content: center;
+            align-items: center;
         }
     }
