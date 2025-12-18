@@ -255,10 +255,11 @@
     }
 
             /* --- TECH STACK (Marquee) --- */
-        .framework{
+        .framework h2{
             display: flex;
             justify-content: center;
             margin: 30px 0;
+            font-size: clamp(15px, 5vw, 30px);
             
         }
         .framework span{
@@ -541,14 +542,17 @@
         .tags{
             padding-bottom: 15px;
             border-bottom: 1px solid white;
-            opacity: 0.3;
+            opacity: 0.9;
+            margin-top: 10px;
         }
         .tag{
-            padding: 8px;
-            background: #7d9dca;
+            padding: 7px;
+            background: #444c57;
             border-radius: 8px;
-            margin: 2px;
-            opacity: 0.1;
+            margin-right: 5px;
+            margin-top: 10px;
+            /* opacity: 0.4; */
+            color: white;
         }
 
         /* --- EXPERIENCE (TIMELINE) --- */
@@ -607,6 +611,12 @@
             padding: 40px 20px;
             border-radius: 15px;
             flex: 1;
+        }
+        .timeline-content p{
+            font-size: 15px;
+            opacity: 0.8;
+            margin: 10px 0;
+            color: var(--text-muted);
         }
         
         .timeline-header {
@@ -792,18 +802,18 @@
             width: 75vw;
             height: 320px;
         }
-        .framework span{
+        .framework{
             display: flex;
             justify-content: center;
             align-items: center;
-            align-content: center;
+            width: 100%;
         }
         .tech-stack{
             display: flex;
             
         }
-        .about-me{
-            font-size: 18px;
+        .about{
+            font-size: 30px;
         }
         .services-grid{
             display: flex;
@@ -835,6 +845,15 @@
         .cta-section h2{
             font-size: 30px;
         }
+        .timeline-content .timeline-header{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .timeline-content .timeline-date {
+            font-size: 17px;
+        }
+
         .btn-group span{
             padding: 0px;
         }
@@ -843,6 +862,9 @@
         }
         form button{
             width: 100%;
+        }
+        .tags{
+            color: white;
         }
         .contact-section{
             margin: 5px;
