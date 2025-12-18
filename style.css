@@ -758,8 +758,8 @@
         .social-links {
             display: flex;
             justify-content: center;
-            gap: 15px;
-            margin: 30px;
+            gap: 5px;
+            margin: 10px;
         }
         .social-links a{
             color: white;
