@@ -700,6 +700,9 @@
 
 
         @media (max-width: 600px) {
+            body{
+                overflow-x: hidden;
+            }
             .form-grid { grid-template-columns: 1fr; }
             .btn-group { display: flex; flex-direction: column; gap: 70px;}
         }
