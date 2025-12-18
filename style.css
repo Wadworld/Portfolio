@@ -517,6 +517,15 @@
             justify-content: space-between;
         }
 
+        .project-image .badge-yellow{
+            color: white;
+            border-radius: 15px;
+        }
+        .project-image .badge-yellow i{
+            background: gold;
+            border: none;
+        }
+
         .badge-dark {
             background: rgba(0,0,0,0.6);
             padding: 5px 10px;
@@ -814,6 +823,8 @@
             align-items: center;
             width: 100%;
         }
+
+
         .tech-stack{
             display: flex;
             
