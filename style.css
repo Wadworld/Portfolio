@@ -802,6 +802,9 @@
             display: flex;
             
         }
+        .about-me{
+            font-size: 18px;
+        }
         .services-grid{
             display: flex;
             flex-direction: column;
